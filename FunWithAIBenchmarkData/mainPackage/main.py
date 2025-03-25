@@ -8,9 +8,10 @@ from utilitiesPackage.utilities import *
 from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
 """
+from image_package.image import *
 
 if __name__ == "__main__":
-
+    blastoise("image_package/Blastoise/Blastoise.jpg")
 
 
     """
