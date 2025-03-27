@@ -13,6 +13,12 @@ from image_package.image import *
 if __name__ == "__main__":
     blastoise("image_package/Blastoise/Blastoise.jpg")
 
+from chart_package import chart  # Import the chart script
+
+if __name__ == "__main__":
+    chart.main()  # Call the main function in chart.py
+
+
 
     """
     CSV_Processor = MMLU_CSV_Processor("dataPackage/MMLU/data/", ["management_test.csv"])
