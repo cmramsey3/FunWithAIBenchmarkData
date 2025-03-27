@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="chart_package\chart.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="chart_package\__init__.py">
       <SubType>Code</SubType>
     </Compile>
