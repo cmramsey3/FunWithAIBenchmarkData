@@ -1,10 +1,21 @@
-#chart.py
+# File Name: chart.py
+# Student Name: Colton Ramsey, Lucas Iceman, Zach Bell
+# email: ramseyc6@mail.uc.edu, icemanlc@mail.uc.edu, bellzj@mail.uc.edu
+# Assignment Number: Assignment 08
+# Due Date: 03/25/2025
+# Course #/Section: IS 4010-001
+# Semester/Year: Spring 2025
+# Brief Description of the assignment: Modify a VS Python project to add some data visualization.
+# Brief Description of what this module does: This module pops up a chart in the console window
+# the image of Blastoise the pokemon.
+# Citations: ChatGPT to understand how to show an image.
+# Anything else that's relevant: None
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data(filename):
-    # Use the correct file path based on where the file is located
     filepath = 'dataPackage/MMLU/data/business_ethics_test.csv'
     df = pd.read_csv(filepath, encoding='utf-8')
     return df

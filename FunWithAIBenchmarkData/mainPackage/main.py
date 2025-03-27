@@ -9,14 +9,12 @@ from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
 """
 from image_package.image import *
+from chart_package import chart
 
 if __name__ == "__main__":
     blastoise("image_package/Blastoise/Blastoise.jpg")
+    chart.main()
 
-from chart_package import chart  # Import the chart script
-
-if __name__ == "__main__":
-    chart.main()  # Call the main function in chart.py
 
 
 
